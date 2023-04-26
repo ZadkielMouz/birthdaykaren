@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 import confetti from 'canvas-confetti'
 
@@ -23,7 +23,7 @@ function App() {
         origin: {
           x: 0,
           y: 0
-        }
+        },
       })
     }, 1000);
   }, []);
@@ -54,7 +54,6 @@ function App() {
 
   return (
     <>
-      
       <h1>Feliz cumpleaños Karen!!!!!</h1>
       <h1>🎉🥳</h1>
       <h2>Espero la pases de lo mejor hoy ❤️ </h2>
@@ -63,7 +62,7 @@ function App() {
           Presioname caramba 👌
         </button>
       </div>
-      <p className="read-the-docs">
+      <p className="footer">
         Made with love ❤️ but fast (sorry 😅)
       </p>
     </>
